@@ -333,7 +333,7 @@ SingleAttack (
     attack_dice_count = MIN(attack_unit_count, MAX_ATTACK_DICE_COUNT);
 
     defend_unit_count = territory_units;
-    defend_dice_count = MIN(defend_unit_count, MAX_ATTACK_DICE_COUNT);
+    defend_dice_count = MIN(defend_unit_count, MAX_DEFEND_DICE_COUNT);
 
     RollDice(attack_dice, attack_dice_count);
     RollDice(defend_dice, defend_dice_count);
